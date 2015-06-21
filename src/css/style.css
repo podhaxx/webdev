@@ -1,0 +1,285 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+    font-size: 1.5em;
+    font-family: Oswald, Raleway, sans-serif;
+    color: #4D4D4D;
+}
+
+.siteWrapper
+{
+    padding: 0;
+}
+
+.headerWrapper {
+    height: 160px;
+    background: rgb(36,122,47); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(36,122,47,1) 0%, rgba(156,189,14,1) 100%, rgba(0,36,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(36,122,47,1)), color-stop(100%,rgba(156,189,14,1)), color-stop(100%,rgba(0,36,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(36,122,47,1) 0%,rgba(156,189,14,1) 100%,rgba(0,36,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(36,122,47,1) 0%,rgba(156,189,14,1) 100%,rgba(0,36,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(36,122,47,1) 0%,rgba(156,189,14,1) 100%,rgba(0,36,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(36,122,47,1) 0%,rgba(156,189,14,1) 100%,rgba(0,36,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#247a2f', endColorstr='#002400',GradientType=1 ); /* IE6-9 */
+
+}
+
+.headerWrapper h1
+{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: #fff;
+    font-family: Raleway, Oswald, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.headerWrapper h1 a,
+.headerWrapper h1 a:active,
+.headerWrapper h1 a:hover,
+.headerWrapper h1 a:focus
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.headerWrapper h2 {
+    margin-left: 80px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Raleway, Oswald, sans-serif;
+    font-style: italic;
+}
+
+.mainWrapper
+{
+    -webkit-box-shadow: 0 5px 1px #85AB3C;
+    -moz-box-shadow: 0 5px 1px #85AB3C;
+    box-shadow: 0 5px 1px #85AB3C;
+
+    margin-top: 25px;
+}
+
+.teaserWrapper, .articleWrapper
+{
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    min-height: 340px;
+    margin-bottom: 15px;
+}
+
+.teaserImg, .articleImg
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.teaserImg img, .articleImg img
+{
+    width: 100%;
+}
+
+.teaserHeadline h3
+{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.4em;
+    color: #8DB147;
+}
+
+.articleHeadline h3
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.7em;
+    color: #8DB147;
+}
+
+.teaserText, .articleText {
+    margin-bottom: 30px;
+}
+
+.teaserText p, .articleText p
+{
+    font-family: "Raleway", "century gothic", Verdana, Geneva, sans-serif;
+    margin-bottom: 20px;
+}
+
+.teaserBottomMenu, .articleBottomMenu
+{
+    clear: both;
+    margin-top: 10px;
+}
+
+.teaserCategoryIcon, .articleCategoryIcon
+{
+    float: left;
+}
+
+.teaserCategoryIcon span
+{
+    font-size: 20px;
+}
+
+.teaserReadFullLink
+{
+    float: right;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.teaserReadFullLink a
+{
+    border-bottom: 1px solid #84AC39;
+    color: #84AC39;
+}
+
+.teaserReadFullLink a:hover,
+.teaserReadFullLink a:active,
+.teaserReadFullLink a:focus
+{
+    text-decoration: none;
+    color: #5c7b28;
+}
+
+
+.articleDetails
+{
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    min-height: 140px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.articleDetailsDate
+{
+    margin-top: 15px;
+}
+
+.articleDetailsAutor, .articleDetailsCategory, .articleDetailsShare
+{
+    margin-top: 10px;
+}
+
+.articleDetailsShare span
+{
+    font-size: 1.5em;
+}
+
+.articleBottomMenuShare
+{
+    float: right;
+}
+
+.articleBottomMenuShare span
+{
+    font-size: 1.5em;
+}
+
+.clearer
+{
+    clear: both;
+}
+
+.sidebar
+{
+    background-color: #EDEDED;
+    -webkit-box-shadow: inset 5px 0 1px #e8e8e8;
+    -moz-box-shadow: inset 5px 0 1px #e8e8e8;
+    box-shadow: inset 5px 0 1px #e8e8e8;
+    min-height: 200px;
+}
+
+
+.sidebar ul
+{
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.sidebar span
+{
+  font-size: 18px;
+    margin-right: 15px;
+}
+
+
+.footerWrapper
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footerAddress h4
+{
+    color: #84AC39;
+}
+
+
+.footerAddress p, .footerContact p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.footerContact
+{
+    margin-top: 40px;
+}
+
+.footerContact a
+{
+    color: #84AC39;
+    text-decoration: none;
+}
+
+.footerContact a:hover,
+.footerContact a:active,
+.footerContact a:focus
+{
+    text-decoration: none;
+    color: #5c7b28;
+}
+
+@media (max-width: 768px) {
+
+    .articleHeadline
+    {
+        text-align: center;
+    }
+
+    .sidebar
+    {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .footerAddress
+    {
+        width: 110px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footerContact
+    {
+        width: 280px;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
